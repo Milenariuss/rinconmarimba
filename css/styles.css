@@ -1,0 +1,222 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF7E7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FDF7E7;
+    color: white;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+.principal {
+    position: relative;
+    text-align: center;
+}
+
+.principal img {
+    width: 100%;
+    height: auto;
+}
+
+.principal-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.principal-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.principal-text p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #77ab59;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.cafes {  
+    background: url('../images/cafe.jpg') no-repeat center center/cover;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cafes h2 
+{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.cafes p 
+{
+    color: white;
+    font-size: 18px;
+}
+
+.cafes-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.postres {
+    background: url('../images/postre.jpg') no-repeat center center/cover;
+    background-position: 10%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.postres h2 {
+    color: white;
+    font-size: 26px;
+}
+
+.postres p {
+    color: white;
+    font-size: 18px;
+}
+
+.postres-gallery {
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+.card {
+    background: white;
+    width: 30%;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.card p {    
+    color: black;
+    font-size: 16px;
+}
+
+.card .btn {
+    margin-top: 10px;
+}
+
+.testimonios {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.testimonios h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonios-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    width: 30%;
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.testimonio p {
+    font-size: 16px;
+}
+
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #77ab59;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info-contacto {
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
